@@ -1,0 +1,13 @@
+.debug [class*="col"]{
+    background-color: gold;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.height{
+    height: 400px;
+}
+
+.height_footer{
+    height: 200px;
+}
