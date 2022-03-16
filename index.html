@@ -14,25 +14,26 @@
     <!-- Header -->
     <header class="bg_header">
         <div class="container bg_header ">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                   <a class="navbar-brand text-white text-uppercase fw-bold" href="#">Start Bootstrap</a>
                   <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon bg-white"></span>
+                    <span class="navbar-toggler-icon color"></span>
                   </button>
-                  <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
+                      <li class="nav-item m-auto">
                         <a class="nav-link active text-white" aria-current="page" href="#">Portfoglio</a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item  m-auto">
                         <a class="nav-link text-white" href="#">About</a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item  m-auto">
                         <a class="nav-link text-white">Contact</a>
                       </li>
                     </ul>
-                  </div>
+                    </div> 
                 </div>
               </nav>
         </div>
@@ -56,7 +57,7 @@
     <!-- Portfoglio -->
     <section class="height_portfoglio p-md-2 p-lg-5">
         <h2 class="text-center p-2 text-uppercase">Portfoglio</h2>
-        <div class="d-flex align-items-center justify-content-center mt-3 ">
+        <div class="d-flex align-items-center justify-content-center mt-3 mb-3 ">
             <span class="bg-dark"></span><i class="fa-solid fa-star mx-4 "></i><span class="bg-dark"></span>
         </div>
         <div class="container">
@@ -87,13 +88,13 @@
     <!-- About -->
     <section class="height_about bg_jumbo text-white p-5">
         <h2 class="text-center p-2 text-uppercase">About</h2>
-        <div class="d-flex align-items-center justify-content-center mt-3">
+        <div class="d-flex align-items-center justify-content-center mt-3 mb-3">
             <span class="bg-white"></span><i class="fa-solid fa-star mx-4 "></i><span class="bg-white"></span>
         </div>
         <div class="container text-center">
             <div class="row row-cols-1 row-cols-md-2 gy-4">
-                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iusto? Delectus sunt esse magni itaque odit illum voluptates autem, molestiae alias ducimus quisquam beatae dolor tempore eveniet recusandae nesciunt ad!</div>
-                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eum omnis animi neque voluptate consectetur? Quisquam porro nisi ipsa quo, dolorem ratione facilis incidunt distinctio impedit dolores laudantium vitae ab.</div>
+                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iusto? Delectus sunt esse magni itaque odit illum voluptates autem, molestiae alias ducimus quisquam beatae dolor tempore eveniet recusandae nesciunt ad! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex unde laborum ducimus provident nisi repellat veniam rem nobis neque doloremque nemo facere, perferendis excepturi totam! Nisi at officia mollitia pariatur.</div>
+                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eum omnis animi neque voluptate consectetur? Quisquam porro nisi ipsa quo, dolorem ratione facilis incidunt distinctio impedit dolores laudantium vitae ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id dolorem nisi repellat quae? Suscipit quae, neque consequuntur a totam voluptatem iusto autem quam deserunt nobis doloremque corrupti ex esse?</div>
             </div>
             <button type="button" class="btn btn-outline-light mt-4"><i class="fa-solid fa-download"></i> Download</button>
         </div>
@@ -143,10 +144,12 @@
                     </div>
                     <div class="col text-center">
                         <h5>Around the web</h5>
-                        <i class="fa-brands fa-facebook-f border border-secondary rounded-circle p-3"></i>
-                        <i class="fa-brands fa-google-plus-g border border-secondary rounded-circle p-3"></i>
-                        <i class="fa-brands fa-twitter border border-secondary rounded-circle p-3"></i>
-                        <i class="fa-brands fa-linkedin-in border border-secondary rounded-circle p-3"></i>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f border border-secondary rounded-circle p-3"></i>
+                            <i class="fa-brands fa-google-plus-g border border-secondary rounded-circle p-3"></i>
+                            <i class="fa-brands fa-twitter border border-secondary rounded-circle p-3"></i>
+                            <i class="fa-brands fa-linkedin-in border border-secondary rounded-circle p-3"></i>
+                        </div>
                     </div>
                     <div class="col text-center">
                         <h5>About Freelancer</h5>
@@ -161,5 +164,6 @@
         
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
