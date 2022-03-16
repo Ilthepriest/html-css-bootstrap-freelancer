@@ -16,24 +16,12 @@
     background-color: var(--footer);
 }
 
-.height_nav{
-    height: 90px;
+.img_jumbo{
+    width: 230px;
 }
 
-.height_jumbo{
-    height: 590px;
+span{
+    height: 3px;
+    width: 100px;
 }
-
-.height_portfoglio{
-    height: 850px;
-}
-
-.height_about{
-    height: 500px;
-}
-
-.height_contacts{
-    height: 680px;
-}
-
 
