@@ -1,12 +1,39 @@
-.debug [class*="col"]{
-    background-color: gold;
-    height: 50px;
-    border: 1px solid black;
+:root{
+    --jumbo: rgba(26, 188, 156, 1);
+    --header: rgba(44, 62, 80, 1);
+    --footer: rgba(58, 84, 109, 1);
 }
 
-.height{
-    height: 400px;
+.bg_header{
+    background-color: var(--header);
 }
 
+.bg_jumbo{
+    background-color: var(--jumbo);
+}
+
+.bg_footer{
+    background-color: var(--footer);
+}
+
+.height_nav{
+    height: 90px;
+}
+
+.height_jumbo{
+    height: 590px;
+}
+
+.height_portfoglio{
+    height: 850px;
+}
+
+.height_about{
+    height: 500px;
+}
+
+.height_contacts{
+    height: 680px;
+}
 
 
